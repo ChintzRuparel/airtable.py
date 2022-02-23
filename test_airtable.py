@@ -5,15 +5,15 @@ import requests_mock
 
 import airtable
 
-FAKE_TABLE_NAME = 'TableName'
-FAKE_BASE_ID = 'app12345'
-FAKE_API_KEY = 'fake_api_key'
+FAKE_TABLE_NAME = 'Contact'
+FAKE_BASE_ID = 'appn7ngXKqO5DyaVl'
+FAKE_API_KEY = 'keybfeKfFFjfyQNKJ'
 
 
 class TestAirtable(unittest.TestCase):
     def setUp(self):
-        self.base_id = FAKE_BASE_ID
-        self.api_key = FAKE_API_KEY
+        self.base_id = appn7ngXKqO5DyaVl
+        self.api_key = keybfeKfFFjfyQNKJ
         self.airtable = airtable.Airtable(self.base_id, self.api_key)
 
     def get(self, *args, **kwargs):  # pylint: disable=invalid-name
