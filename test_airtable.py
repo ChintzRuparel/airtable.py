@@ -12,8 +12,8 @@ FAKE_API_KEY = 'keybfeKfFFjfyQNKJ'
 
 class TestAirtable(unittest.TestCase):
     def setUp(self):
-        self.base_id = appn7ngXKqO5DyaVl
-        self.api_key = keybfeKfFFjfyQNKJ
+        self.base_id = "appn7ngXKqO5DyaVl"
+        self.api_key = "keybfeKfFFjfyQNKJ"
         self.airtable = airtable.Airtable(self.base_id, self.api_key)
 
     def get(self, *args, **kwargs):  # pylint: disable=invalid-name

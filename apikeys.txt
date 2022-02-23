@@ -1,0 +1,3 @@
+"API KEYS : keybfeKfFFjfyQNKJ"
+"BASE ID : appn7ngXKqO5DyaVl"
+"TABLE NAME : Contacts"
